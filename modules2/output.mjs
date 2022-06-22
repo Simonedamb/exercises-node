@@ -1,5 +1,7 @@
+import clc from "cli-color";
+
 function outputMessage(message) {
-  console.log(`The message is : ${message}`);
+  console.log(clc.red(`The message is : ${message}`));
 }
 
 export default outputMessage;
