@@ -8,7 +8,9 @@ function createApp() {
 
     // const jsonResponseBody = JSON.stringify({ location: "Mars" });
 
-    response.end("<html><body>Welcome to the World Wide Web!</body></html>");
+    response.end(
+      "<html><body><h1>Welcome to the World Wide Web!</h1></body></html>"
+    );
   });
 }
 
